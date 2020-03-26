@@ -1,0 +1,24 @@
+.status__bar {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.fix__bar .status__bar .status__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.status__bar .status__icon-list {
+  margin-left: 10px;
+  display: flex;
+}
+
+.status__bar .status__icon:last-child {
+  margin-left: 10px;
+}
+
+.status__bar .status__icon:nth-child(2) {
+  margin: 0px 5px;
+}

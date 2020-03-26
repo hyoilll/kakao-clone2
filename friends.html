@@ -7,65 +7,75 @@
       src="https://kit.fontawesome.com/faffc246c6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Friends</title>
   </head>
   <body>
-    <section class="status_bar">
-      <div class="status__time">12:55</div>
-      <div class="status__icon-list">
-        <span class="status__icon">
-          <i class="fas fa-clock"></i>
-        </span>
-        <span class="status__icon">
-          <i class="fas fa-volume-mute"></i>
-        </span>
-        <span class="status__icon">
-          <i class="fas fa-wifi"></i>
-        </span>
-        <span class="status__icon">
-          <span class="status__icon-persent">50%</span>
-          <i class="fas fa-battery-half"></i>
-        </span>
-      </div>
+    <section class="fix__bar">
+      <section class="status__bar">
+        <div class="status__content">
+          <div class="status__time">12:55</div>
+          <div class="status__icon-list">
+            <span class="status__icon">
+              <i class="fas fa-clock"></i>
+            </span>
+            <span class="status__icon">
+              <i class="fas fa-volume-mute"></i>
+            </span>
+            <span class="status__icon">
+              <i class="fas fa-wifi"></i>
+            </span>
+            <div class="status__icon">
+              <span class="status__icon-persent">50%</span>
+              <i class="fas fa-battery-half"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <header class="header">
+        <div class="header__title">Friends</div>
+        <div class="header__icon-list">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </section>
-    <header>
-      <div class="header__title">Friends</div>
-      <div class="header__icon-list">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
     <main class="friends">
       <section class="friends__list self">
-        <div class="friend__content">
+        <div class="friend__column">
           <img src="image/photo.jpg" class="friend__avatar" />
-          <span class="friend__name">Hyo il</span>
-          <span class="friend__status-meg">studying</span>
+          <div class="friend__content">
+            <span class="friend__name">Hyo il</span>
+            <span class="friend__status-meg">studying</span>
+          </div>
         </div>
       </section>
       <section class="friends__list plus-friend">
-        <h5 class="Plus friend">Plus friend</h5>
-        <div class="friend__content">
+        <h5 class="section-title">Plus friend</h5>
+        <div class="friend__column">
           <img src="image/irin.jpg" class="friend__avatar" />
-          <span class="friend__name">Hyo il</span>
-          <span class="friend__status-meg">studying</span>
+          <div class="friend__content">
+            <span class="friend__name">Plus Friend</span>
+          </div>
         </div>
       </section>
       <section class="friends__list friend">
-        <h5 class="Plus friend">Friend 3</h5>
+        <h5 class="section-title">Friend 3</h5>
         <ul class="friend__list">
-          <li class="friend__content">
+          <li class="friend__member">
             <div class="friend__column">
               <img
                 src="image/KakaoTalk_20200323_125817872.jpg"
                 class="friend__avatar"
               />
-              <span class="friend__name">Yukiたん</span>
-              <span class="friend__status-meg">talking</span>
+              <div class="friend__content">
+                <span class="friend__name">Yukiたん</span>
+                <span class="friend__status-meg">talking</span>
+              </div>
             </div>
             <div class="friend__column">
               <div class="friend__music-bar music">
@@ -76,11 +86,13 @@
               </div>
             </div>
           </li>
-          <li class="friend__content">
+          <li class="friend__member">
             <div class="friend__column">
               <img src="image/sanaCut.jpg" class="friend__avatar" />
-              <span class="friend__name">Sana</span>
-              <span class="friend__status-meg">swimming</span>
+              <div class="friend__content">
+                <span class="friend__name">Sana</span>
+                <span class="friend__status-meg">swimming</span>
+              </div>
             </div>
             <div class="friend__column">
               <div class="friend__music-bar music">
@@ -91,11 +103,13 @@
               </div>
             </div>
           </li>
-          <li class="friend__content">
+          <li class="friend__member">
             <div class="friend__column">
               <img src="image/mina.jpg" class="friend__avatar" />
-              <span class="friend__name">Mina</span>
-              <span class="friend__status-meg">gaming</span>
+              <div class="friend__content">
+                <span class="friend__name">Mina</span>
+                <span class="friend__status-meg">gaming</span>
+              </div>
             </div>
             <div class="friend__column">
               <div class="friend__music-bar music">

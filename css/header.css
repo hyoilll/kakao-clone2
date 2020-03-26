@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.header .header__column:first-child {
+  display: flex;
+}
+
+.header .header__icon {
+  font-size: 20px;
+}
+
+.header .header__icon:nth-child(2),
+.header .header__icon:nth-child(3) {
+  margin-left: 10px;
+}

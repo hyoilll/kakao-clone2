@@ -1,0 +1,14 @@
+.main__menu {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #fcfcfc;
+  border-top: 1px solid #f7f7f7;
+}
+.main__menu .menu__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+  font-size: 25px;
+}

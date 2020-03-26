@@ -1,0 +1,10 @@
+.fix__bar {
+  position: fixed;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #f7f7f7;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding: 10px 20px;
+}

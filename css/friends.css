@@ -1,0 +1,68 @@
+.friends .friend__avatar,
+.chats .friend__avatar,
+.more .friend__avatar,
+.find .friend__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.friends .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friends .friend__member {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends .friend__name {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.friends .friend__status-meg {
+  font-size: 13px;
+  color: #8b8888c9;
+}
+
+.friends .friend__avatar {
+  margin-right: 10px;
+}
+
+.friends .plus-friend {
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  margin: 25px 0px;
+  padding: 20px 0px;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #8b8888c9;
+}
+
+.friends .friend__list .friend__member:nth-child(2) {
+  margin: 5px 0px;
+  padding: 5px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.friends .friend__member .friend__column .music,
+.friends .friend__member .friend__column .timestamp {
+  font-size: 13px;
+}
+
+.friends .music .music__name,
+.friends .timestamp .timestamp-date {
+  color: #8b8888c9;
+}
+
+.friends .friend__member .friend__column .music {
+  border: 2px solid #acf5c1;
+  padding: 3px 7px;
+  border-radius: 10px;
+}

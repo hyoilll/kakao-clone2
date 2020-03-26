@@ -7,70 +7,81 @@
       src="https://kit.fontawesome.com/faffc246c6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Find</title>
   </head>
   <body>
-    <section class="status_bar">
-      <div class="status__time">12:55</div>
-      <div class="status__icon-list">
-        <span class="status__icon">
-          <i class="fas fa-clock"></i>
-        </span>
-        <span class="status__icon">
-          <i class="fas fa-volume-mute"></i>
-        </span>
-        <span class="status__icon">
-          <i class="fas fa-wifi"></i>
-        </span>
-        <span class="status__icon">
-          <span class="status__icon-persent">50%</span>
-          <i class="fas fa-battery-half"></i>
-        </span>
-      </div>
+    <section class="fix__bar">
+      <section class="status__bar">
+        <div class="status__content">
+          <div class="status__time">12:55</div>
+          <div class="status__icon-list">
+            <span class="status__icon">
+              <i class="fas fa-clock"></i>
+            </span>
+            <span class="status__icon">
+              <i class="fas fa-volume-mute"></i>
+            </span>
+            <span class="status__icon">
+              <i class="fas fa-wifi"></i>
+            </span>
+            <span class="status__icon">
+              <span class="status__icon-persent">50%</span>
+              <i class="fas fa-battery-half"></i>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <header class="header">
+        <div class="header__title">Find</div>
+        <div class="header__icon-list">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </section>
-    <header>
-      <div class="header__title">Find</div>
-      <div class="header__icon-list">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-      <ul class="header__move icons">
-        <li class="icons-content icon">
-          <div class="icon__icon">
-            <i class="fas fa-qrcode"></i>
-          </div>
-          <div class="icon__name"></div>
-        </li>
-        <li class="icons-content icon">
-          <div class="icon__icon">
-            <i class="fas fa-user-plus"></i>
-          </div>
-          <div class="icon__name"></div>
-        </li>
-        <li class="icons-content icon">
-          <div class="icon__icon">
-            <i class="fas fa-address-book"></i>
-          </div>
-          <div class="icon__name"></div>
-        </li>
-        <li class="icons-content icon">
-          <div class="icon__icon">
-            <i class="far fa-envelope"></i>
-          </div>
-          <div class="icon__name"></div>
-        </li>
-      </ul>
-    </header>
+
     <main class="friends">
+      <nav class="subMenu">
+        <ul class="header__move icons">
+          <li class="icons-content icon">
+            <div class="icon__icon">
+              <i class="fas fa-qrcode"></i>
+            </div>
+            <div class="icon__name"></div>
+          </li>
+          <li class="icons-content icon">
+            <div class="icon__icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="icon__name"></div>
+          </li>
+          <li class="icons-content icon">
+            <div class="icon__icon">
+              <i class="fas fa-address-book"></i>
+            </div>
+            <div class="icon__name"></div>
+          </li>
+          <li class="icons-content icon">
+            <div class="icon__icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="icon__name"></div>
+          </li>
+        </ul>
+      </nav>
       <ul class="friend__list">
-        <li class="friend__content">
+        <li class="friend__member">
           <div class="friend__column">
             <img src="image/irin.jpg" class="friend__avatar" />
-            <span class="friend__name">Irene</span>
+            <div class="friend__content">
+              <span class="friend__name">Irene</span>
+            </div>
           </div>
           <div class="friend__column">
             <div class="friend__register-bar register">
