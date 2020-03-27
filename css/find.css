@@ -1,0 +1,30 @@
+.find .subMenu {
+  position: fixed;
+  top: 93px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+}
+.find .subMenu .icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.find .icon .icon__icon {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.find .find__friend__list {
+  margin-top: 200px;
+}
+
+.find .register .fas {
+  background-color: #e9e5e5;
+  padding: 10px;
+}

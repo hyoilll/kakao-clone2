@@ -12,3 +12,18 @@
   margin: 20px 40px;
   font-size: 25px;
 }
+
+.main__menu .menu__icon:nth-child(2) {
+  position: relative;
+}
+
+.main__menu .chats-cnt {
+  position: absolute;
+  font-size: 12px;
+  background-color: #dc5d46;
+  padding: 3px;
+  border-radius: 50%;
+  color: white;
+  top: -7px;
+  right: -7px;
+}

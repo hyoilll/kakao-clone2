@@ -1,0 +1,40 @@
+.more .meg-icon {
+  font-size: 25px;
+}
+
+.more .more__icon-menu {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.more .more__icon-menu,
+.more .more__suggestions {
+  padding: 30px 20px;
+  font-size: 18px;
+}
+
+.more .icon__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more .icon__list .icon-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.more .icon__list .icon-content .icon__list-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.more .more__suggestions-menu {
+  padding-top: 25px;
+}
+
+.more .more__suggestions-menu .icon__list-icon .fas {
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.settings .header .header__icon-arrow {
+  margin-right: 10px;
+}
+
+.settings .settings__contents:first-child {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.settings .settings__contents {
+  padding: 20px 10px;
+  font-size: 18px;
+}
+
+.settings .settings__list .settings__list-item:nth-child(2) {
+  margin: 20px 0px;
+}
+
+.settings .content-icon {
+  margin-right: 20px;
+}
+
+.settings .settings__contents:first-child .settings__list-item:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.settings
+  .settings__contents:first-child
+  .settings__list-item:last-child
+  .version {
+  font-size: 15px;
+  opacity: 0.6;
+}

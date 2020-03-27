@@ -1,0 +1,24 @@
+.chats .friend__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chats .friend__member:nth-child(2) .friend__column:nth-child(2),
+.chats .friend__member:nth-child(3) .friend__column:nth-child(2) {
+  margin-right: 5px;
+}
+
+.chats .megcnt {
+  margin-top: 5px;
+  font-size: 13px;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

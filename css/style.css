@@ -5,6 +5,10 @@
 @import "header.css";
 @import "fix__bar.css";
 @import "menu-bar.css";
+@import "chats.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
 
 body {
   padding: 10px 20px;
@@ -16,4 +20,9 @@ body {
 * {
   margin-top: 100px;
   box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
