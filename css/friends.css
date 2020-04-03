@@ -44,7 +44,7 @@
   color: #8b8888c9;
 }
 
-.friends .friend__list .friend__member:nth-child(2) {
+.friends .friend__member:nth-child(2) {
   margin: 5px 0px;
   padding: 5px 0px;
   border-top: 1px solid #f7f7f7;
@@ -65,4 +65,8 @@
   border: 2px solid #acf5c1;
   padding: 3px 7px;
   border-radius: 10px;
+}
+
+.friends .music__play-icon {
+  color: #acf5c1;
 }
